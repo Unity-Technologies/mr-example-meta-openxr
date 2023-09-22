@@ -59,7 +59,7 @@ There are (4) different types of interactable examples used with the Object Spaw
 By grabbing the base of the totems, the user can move the object along a plane found in the physical environment. By grabbing the virtual objects above, the user can explore other types of interactions; floating grab interactables with the **Totem Floating Torus**, passive hand physics interactions with **Totem Kinetic**, and a custom particle blaster interactable with **Totem Blaster**.   
 
 ## Affordance System
-In addition, the [Affordance system](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.3/manual/affordance-system.html#:~:text=The%20XR%20Interactable%20Affordance%20State,subscribed%20to%20this%20particular%20provider.) provides feedback for the user with visual and auditory cues. This requires the use of the [XR Interactable Affordance State Provider](https://docs.unity.cn/Packages/com.unity.xr.interaction.toolkit@2.3/manual/xr-interactable-affordance-state-provider.html) with a specified interactable source. For the interactables included in the Sample scene, there is an [Audio Affordance Receiver](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.3/api/UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Audio.AudioAffordanceReceiver.html) and a [Color Affordance Receiver](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.3/api/UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Rendering.ColorMaterialPropertyAffordanceReceiver.html) already set up.
+In addition, the [Affordance system](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/affordance-system.html#:~:text=The%20XR%20Interactable%20Affordance%20State,subscribed%20to%20this%20particular%20provider.) provides feedback for the user with visual and auditory cues. This requires the use of the [XR Interactable Affordance State Provider](https://docs.unity.cn/Packages/com.unity.xr.interaction.toolkit@2.5/manual/xr-interactable-affordance-state-provider.html) with a specified interactable source. For the interactables included in the Sample scene, there is an [Audio Affordance Receiver](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/api/UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Audio.AudioAffordanceReceiver.html) and a [Color Affordance Receiver](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/api/UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Rendering.ColorMaterialPropertyAffordanceReceiver.html) already set up.
 
 ### Color Affordance Receiver Example
 
@@ -69,7 +69,7 @@ In addition, the [Affordance system](https://docs.unity3d.com/Packages/com.unity
 
 ![AudioAffordanceReceiver](Documentation/images/audio-affordance-receiver.png)
 
-These Affordance Receivers are driven by [Affordance System Themes](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/api/UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.html) found in Assets > MRExampleAssets > Themes.
+These Affordance Receivers are driven by [Affordance System Themes](https://docs.unity.cn/Packages/com.unity.xr.interaction.toolkit@2.5/manual/affordance-system.html#affordance-themes) found in Assets > MRExampleAssets > Themes.
 
 ### Edge Color Affordance Theme Example
 
@@ -91,7 +91,7 @@ The **Hand Menu Setup** Gameobject includes a basic scroll menu that launches wh
 
 ![FollowPreset](Documentation/images/follow-preset.png)
 
-The **Spatial Panel Manipulator** displays a video player to communicate basic input mapping for the SampleScene. User’s have the ability to move the canvas in space by grabbing the canvas by either the header or handle at the bottom of the canvas. Billboarding with the Lazy Follow component is on the prefab by default, with the positional transformation of the canvas being determined by the direct/ray interactor.
+The **Spatial Panel Manipulator** displays a video player to communicate basic input mapping for the SampleScene. User’s have the ability to move the canvas in space by grabbing the canvas by either the header or handle at the bottom of the canvas. Bill-boarding with the Lazy Follow component is on the prefab by default, with the positional transformation of the canvas being determined by the direct/ray interactor.
 
 ## Project Configuration
 
