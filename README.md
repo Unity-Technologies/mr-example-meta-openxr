@@ -97,9 +97,9 @@ The **Spatial Panel Manipulator** displays a video player to communicate basic i
 
 Various presets are used to accommodate graphics & rendering requirements for different platforms. By selecting the target platform in the Build Settings, i.e. Windows, Mac, Linux or Android, different URP Config Settings are automatically updated for the user. The presets can be found in `Assets/Settings/Project Configuration`.
 
-For Android, the `Android Preset` and `Performance URP Config` assets provide a good baseline of graphics settings for low powered headsets such as the Quest.
+For Quest-based devices, the `Standalone Performant Preset` and `Performant URP Renderer Config` assets provide a good baseline of graphics settings for older model standalone headsets such as the Quest 2. You may also want to experiment with the `Standalone Balanced Preset` and `Balanced URP Renderer Config` for higher-powered standalone headsets such as the Quest Pro and Quest 3.
 
-![ProjectConfigURPAndroid](Documentation/images/projectconfig-urp-android.png)
+![ProjectConfigURPAndroid](Documentation/images/projectconfig-urp-performant.png)
 
 In addition, by selecting the target platform in Build Settings, OpenXR feature groups and interaction profiles are preconfigured. By default, the Android build target updates the settings for Meta Quest support.
 
