@@ -26,7 +26,7 @@ You can use this Scene as a reference, or you can remove the example Assets from
 
 ## Sample Scene Hierarchy Overview
 
-![SampleSceneHierarchy](images/sample-scene-hierarchy.png)
+![SampleSceneHierarchy](Documentation/images/sample-scene-hierarchy.png)
 
 ## MR Interaction Setup
 The **MR Interaction Setup** in Unity is the main GameObject for configuring the extended reality (XR) camera and the origin point of the XR experience in Unity. The MR Interaction Setup includes additional configuration beyond the basic XR Origin Setup, such as:
@@ -38,18 +38,18 @@ The MR Example includes various essential features for mixed reality development
 
 For plane detection, the **AR Session** controls the lifecycle and configuration options for an AR session and is located in the **MR Interaction Setup** GameObject. There is only one active session. If you have multiple ARSession components, they all communicate to the same session and will conflict with each other. The **AR Plane Manager** creates GameObjects for each detected plane in the environment. The component is located on the same GameObject as the XR Origin component.
 
-![ARPlaneManager](images/arplanemanager.png)
+![ARPlaneManager](Documentation/images/arplanemanager.png)
 
 A plane is a flat surface represented by a pose, dimensions, and boundary points. The boundary points are convex. Examples of features in the environment that can be detected as planes are horizontal tables, floors, countertops, and vertical walls. You can specify a **Detection Mode**, which can be horizontal, vertical, or both. Some platforms require extra work to perform vertical plane detection, so if you only need horizontal planes, you should disable vertical plane detection. In addition, the AR Plane Manager allows you to specify a prefab for plane visualization.
 
-![ARPlaneManagerDetection](images/arplanemanager-detection.png)
+![ARPlaneManagerDetection](Documentation/images/arplanemanager-detection.png)
 
 To enable passthrough, the **AR Camera Manager** is included as a component on the Main Camera GameObject. Also, note that the camera background is set to black, with 0 alpha.
 
 ## Object Spawner
 The **Object Spawner** is located in the **MR Interaction Setup** GameObject and enables you to spawn assets in your space triggered by a collision event from the **Contact Spawn Trigger** GameObject that is attached to the palm of the hand. The **Object Spawner** allows you to customize the objects you would like to spawn using the Object Prefabs list.
 
-![ObjectSpawner](images/object-spawner.png)
+![ObjectSpawner](Documentation/images/object-spawner.png)
 
 ## Interactables
 There are various objects in the **Object Spawner** that the user is able to interact with. In XRI, these are called interactables. The grab interactable allows a user to pick up a GameObject using either a direct or ray interactor. Grab interactables need a Rigidbody and a Collider to define the interactable area.
