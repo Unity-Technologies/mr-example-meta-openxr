@@ -66,6 +66,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.vsconfig
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -89,3 +90,9 @@ crashlytics-build.properties
 
 # Mac file setting
 .DS_Store
+
+# Assets
+PackageManagerSettings.asset
+
+# Ignore Build Artifacts
+.Editor/

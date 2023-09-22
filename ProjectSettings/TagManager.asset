@@ -11,6 +11,8 @@ TagManager:
   - 
   - Water
   - UI
+  - Spawner Contact
+  - Placeable Surface
   - 
   - 
   - 
@@ -33,9 +35,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - XR Simulation
   - 
   m_SortingLayers:
   - name: Default
