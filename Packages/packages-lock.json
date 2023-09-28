@@ -10,7 +10,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.7",
+      "version": "1.8.8",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -59,7 +59,7 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.xr.oculus": "4.0.0",
-        "com.unity.xr.openxr": "1.8.1"
+        "com.unity.xr.openxr": "1.8.2"
       }
     },
     "com.unity.ide.rider": {
@@ -226,7 +226,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.8.0",
+      "version": "1.9.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
